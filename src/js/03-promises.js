@@ -23,7 +23,7 @@ function createPromise(position, delay) {
 }
 
 function onSubmit(evt) {
-  
+
   evt.preventDefault();
 
   let firstDelay = Number(delay.value);

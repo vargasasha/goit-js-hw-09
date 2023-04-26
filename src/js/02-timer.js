@@ -56,7 +56,8 @@ function addLeadingZero(value) {
 }
 
 function onTimer() {
-  timerId = setInterval(() => {
+
+ const timerId = setInterval(() => {
     if (leftTime.getTime() >= new Date().getTime()) {
       const timer = convertMs(leftTime.getTime() - new Date().getTime());
 
